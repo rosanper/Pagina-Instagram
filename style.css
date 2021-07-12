@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #5C92B2;
+    display: flex;
+    justify-content: center;
+}
+
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width:60%;
+    height: 100vh;
+}
+
+.telefone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.telefone img {
+    height: 50rem;
+}
+
+.informações {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    
+}
+
+.texto-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+
+}
+
+.texto-login img {
+    height: 3rem;
+}
+
+#foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 1rem;
+}
+
+.login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 1rem;
+}
+
+.alterar-conta {
+    color: #0095f6;
+    margin-top: 0.5rem;
+}
+
+.texto-fazer-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2.3rem 0;
+    height: 3rem;
+}
+
+.identificacao {
+    color: black;
+}
+
+.texto-fazer-cadastro a {
+    color:#0095f6;
+}
+
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.links img {
+    height: 3rem;
+    width: 10rem;
+
+}
+
+
+
+@media (max-width: 1024px) {
+    .corpo {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .corpo {
+        width: 90%;
+    }
+
+    .telefone {
+        display: none;
+    }
+
+    .informações {
+        width: 100%;
+    }
+}
